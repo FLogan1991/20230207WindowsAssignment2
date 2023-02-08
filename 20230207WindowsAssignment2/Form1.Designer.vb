@@ -38,12 +38,15 @@ Partial Class frmBurgers
         'lblHeading
         '
         Me.lblHeading.AutoSize = True
-        Me.lblHeading.Font = New System.Drawing.Font("Tahoma", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblHeading.Location = New System.Drawing.Point(277, 33)
+        Me.lblHeading.Font = New System.Drawing.Font("Tahoma", 16.0!, System.Drawing.FontStyle.Bold)
+        Me.lblHeading.Location = New System.Drawing.Point(243, 34)
+        Me.lblHeading.MaximumSize = New System.Drawing.Size(305, 33)
+        Me.lblHeading.MinimumSize = New System.Drawing.Size(305, 33)
         Me.lblHeading.Name = "lblHeading"
-        Me.lblHeading.Size = New System.Drawing.Size(233, 25)
+        Me.lblHeading.Size = New System.Drawing.Size(305, 33)
         Me.lblHeading.TabIndex = 0
         Me.lblHeading.Text = "Farm Burger Specials"
+        Me.lblHeading.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'picPrime
         '
@@ -93,8 +96,9 @@ Partial Class frmBurgers
         Me.lblInstructions.AutoSize = True
         Me.lblInstructions.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblInstructions.Location = New System.Drawing.Point(258, 439)
+        Me.lblInstructions.MinimumSize = New System.Drawing.Size(360, 18)
         Me.lblInstructions.Name = "lblInstructions"
-        Me.lblInstructions.Size = New System.Drawing.Size(308, 14)
+        Me.lblInstructions.Size = New System.Drawing.Size(360, 18)
         Me.lblInstructions.TabIndex = 6
         Me.lblInstructions.Text = "Choose a burger and then click the Select Meal button"
         '
@@ -103,8 +107,9 @@ Partial Class frmBurgers
         Me.lblConfirmation.AutoSize = True
         Me.lblConfirmation.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblConfirmation.Location = New System.Drawing.Point(328, 463)
+        Me.lblConfirmation.MinimumSize = New System.Drawing.Size(172, 18)
         Me.lblConfirmation.Name = "lblConfirmation"
-        Me.lblConfirmation.Size = New System.Drawing.Size(144, 14)
+        Me.lblConfirmation.Size = New System.Drawing.Size(172, 18)
         Me.lblConfirmation.TabIndex = 7
         Me.lblConfirmation.Text = "Enjoy your burger special"
         '
